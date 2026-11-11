@@ -1,0 +1,153 @@
+{
+  "settings": {
+    "axis": "pitch",
+    "port": "COM7",
+    "max_angle": 15.0,
+    "step": 0.5,
+    "speed": 1.0,
+    "servo_min": 60.0,
+    "servo_max": 120.0,
+    "diagnose": false,
+    "send": true
+  },
+  "model_preview": [
+    {
+      "axis": "pitch",
+      "direction": 1,
+      "last_model_pass_deg": 6.0,
+      "stop_reason": "servo target 62.6..120.1 deg exceeds 60..120 deg"
+    },
+    {
+      "axis": "pitch",
+      "direction": -1,
+      "last_model_pass_deg": -6.0,
+      "stop_reason": "servo target 59.9..117.4 deg exceeds 60..120 deg"
+    }
+  ],
+  "directions": [
+    {
+      "axis": "pitch",
+      "direction": 1,
+      "last_confirmed_command_deg": 6.0,
+      "stop_reason": "servo target 62.6..120.1 deg exceeds 60..120 deg",
+      "observations": [
+        {
+          "command_deg": 0.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 1.0,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 1.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 2.0,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 2.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 3.0,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 3.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 4.0,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 4.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 5.0,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 5.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 6.0,
+          "firmware_echo_received": true
+        }
+      ],
+      "returned_home": true
+    },
+    {
+      "axis": "pitch",
+      "direction": -1,
+      "last_confirmed_command_deg": -6.0,
+      "stop_reason": "servo target 59.9..117.4 deg exceeds 60..120 deg",
+      "observations": [
+        {
+          "command_deg": -0.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": -1.0,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": -1.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": -2.0,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": -2.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": -3.0,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": -3.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": -4.0,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": -4.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": -5.0,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": -5.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": -6.0,
+          "firmware_echo_received": true
+        }
+      ],
+      "returned_home": true
+    }
+  ],
+  "status": "completed",
+  "actual_platform_angles_measured": false,
+  "startup_firmware_angles": [
+    19.4,
+    19.4,
+    19.4,
+    19.4,
+    19.4,
+    19.4
+  ]
+}

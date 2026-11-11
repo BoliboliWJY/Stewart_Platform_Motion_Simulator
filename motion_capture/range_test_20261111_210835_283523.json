@@ -1,0 +1,346 @@
+{
+  "settings": {
+    "axis": "both",
+    "port": "COM7",
+    "max_angle": 15.0,
+    "step": 0.5,
+    "speed": 1.0,
+    "servo_min": 20.0,
+    "servo_max": 160.0,
+    "diagnose": false,
+    "send": true
+  },
+  "model_preview": [
+    {
+      "axis": "roll",
+      "direction": 1,
+      "last_model_pass_deg": 15.0,
+      "stop_reason": "requested max-angle reached; not a mechanical limit"
+    },
+    {
+      "axis": "roll",
+      "direction": -1,
+      "last_model_pass_deg": -15.0,
+      "stop_reason": "requested max-angle reached; not a mechanical limit"
+    },
+    {
+      "axis": "pitch",
+      "direction": 1,
+      "last_model_pass_deg": 15.0,
+      "stop_reason": "requested max-angle reached; not a mechanical limit"
+    },
+    {
+      "axis": "pitch",
+      "direction": -1,
+      "last_model_pass_deg": -15.0,
+      "stop_reason": "requested max-angle reached; not a mechanical limit"
+    }
+  ],
+  "directions": [
+    {
+      "axis": "roll",
+      "direction": 1,
+      "last_confirmed_command_deg": 15.0,
+      "stop_reason": "requested_max_angle_reached",
+      "observations": [
+        {
+          "command_deg": 0.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 1.0,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 1.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 2.0,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 2.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 3.0,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 3.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 4.0,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 4.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 5.0,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 5.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 6.0,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 6.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 7.0,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 7.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 8.0,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 8.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 9.0,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 9.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 10.0,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 10.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 11.0,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 11.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 12.0,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 12.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 13.0,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 13.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 14.0,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 14.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 15.0,
+          "firmware_echo_received": true
+        }
+      ],
+      "returned_home": true
+    },
+    {
+      "axis": "roll",
+      "direction": -1,
+      "last_confirmed_command_deg": -15.0,
+      "stop_reason": "requested_max_angle_reached",
+      "observations": [
+        {
+          "command_deg": -0.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": -1.0,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": -1.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": -2.0,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": -2.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": -3.0,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": -3.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": -4.0,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": -4.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": -5.0,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": -5.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": -6.0,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": -6.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": -7.0,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": -7.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": -8.0,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": -8.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": -9.0,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": -9.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": -10.0,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": -10.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": -11.0,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": -11.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": -12.0,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": -12.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": -13.0,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": -13.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": -14.0,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": -14.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": -15.0,
+          "firmware_echo_received": true
+        }
+      ],
+      "returned_home": true
+    },
+    {
+      "axis": "pitch",
+      "direction": 1,
+      "last_confirmed_command_deg": 3.5,
+      "stop_reason": "in_progress",
+      "observations": [
+        {
+          "command_deg": 0.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 1.0,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 1.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 2.0,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 2.5,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 3.0,
+          "firmware_echo_received": true
+        },
+        {
+          "command_deg": 3.5,
+          "firmware_echo_received": true
+        }
+      ],
+      "pending_command_deg": 4.0
+    }
+  ],
+  "status": "operator_stopped_holding_pose",
+  "actual_platform_angles_measured": false,
+  "startup_firmware_angles": [
+    19.4,
+    19.4,
+    19.4,
+    19.4,
+    19.4,
+    19.4
+  ]
+}

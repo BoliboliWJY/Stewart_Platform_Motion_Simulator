@@ -1,0 +1,62 @@
+{
+  "settings": {
+    "axis": "both",
+    "port": "COM7",
+    "max_angle": 90.0,
+    "step": 0.5,
+    "speed": 1.0,
+    "servo_min": 0.0,
+    "servo_max": 180.0,
+    "auto": true,
+    "boundary_margin": 2.0,
+    "servo_speed": 10.0,
+    "diagnose": false,
+    "send": true
+  },
+  "model_preview": [
+    {
+      "axis": "roll",
+      "direction": 1,
+      "last_model_pass_deg": 37.0,
+      "stop_reason": "servo target -0.7..180.7 deg exceeds 0..180 deg"
+    },
+    {
+      "axis": "roll",
+      "direction": -1,
+      "last_model_pass_deg": -26.0,
+      "stop_reason": "inverse kinematics has no finite solution"
+    },
+    {
+      "axis": "pitch",
+      "direction": 1,
+      "last_model_pass_deg": 26.5,
+      "stop_reason": "inverse kinematics has no finite solution"
+    },
+    {
+      "axis": "pitch",
+      "direction": -1,
+      "last_model_pass_deg": -26.5,
+      "stop_reason": "inverse kinematics has no finite solution"
+    }
+  ],
+  "directions": [
+    {
+      "axis": "roll",
+      "target_deg": 35.0,
+      "operator_clearance_confirmed": false,
+      "phase": "returning_home",
+      "returned_home": false,
+      "last_completed_command_deg": 35.0
+    }
+  ],
+  "status": "operator_stopped_holding_pose",
+  "actual_platform_angles_measured": false,
+  "startup_firmware_angles": [
+    19.4,
+    19.4,
+    19.4,
+    19.4,
+    19.4,
+    19.4
+  ]
+}

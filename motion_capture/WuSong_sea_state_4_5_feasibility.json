@@ -1,0 +1,221 @@
+{
+  "ship": "WuSong",
+  "model_status": "equivalent_hull_estimate",
+  "geometry_mm": {
+    "base_radius": 66,
+    "platform_radius": 87.5,
+    "horn": 45,
+    "rod": 115
+  },
+  "servo_test_window_deg": [
+    60,
+    120
+  ],
+  "reference": "Subtract first CSV row from translations and Euler angles, matching play_6dof_to_platform.py",
+  "scope": "Offline sampled kinematic feasibility only; collision, joint articulation, loaded tracking and servo dynamics not validated.",
+  "sea_states": [
+    {
+      "level": 4,
+      "hs_m": 1.875,
+      "tz_s": 6.5,
+      "samples": 6000,
+      "duration_s": 599.9,
+      "model_rotation_min_deg": [
+        -7.472905155158527,
+        -1.108356119797524,
+        -0.004242903815717911
+      ],
+      "model_rotation_max_deg": [
+        7.235046883808927,
+        1.1028081921116988,
+        0.0041378639195899
+      ],
+      "model_translation_min_m": [
+        -0.1526066560362053,
+        -1.0536972171644852,
+        -4.665161527822837
+      ],
+      "model_translation_max_m": [
+        0.1550989920297247,
+        1.003627830928222,
+        4.637131036799367
+      ],
+      "previews": [
+        {
+          "translation_scale": 0.002,
+          "rotation_scale": 1.0,
+          "playback_speed": 1,
+          "servo_min_deg": 49.040833773436304,
+          "servo_max_deg": 132.1748952644416,
+          "passes_current_window": false,
+          "command_rotation_min_deg": [
+            -10.142890118507367,
+            -1.0813291826347684,
+            -0.0034824596304410026
+          ],
+          "command_rotation_max_deg": [
+            4.565061920460086,
+            1.1298351292744544,
+            0.004898308104866808
+          ],
+          "command_translation_min_mm": [
+            -0.2975500965960726,
+            -1.349383500266553,
+            -8.781659532374798
+          ],
+          "command_translation_max_mm": [
+            0.3178611995357875,
+            2.7652665959188614,
+            9.822925596869613
+          ],
+          "max_rod_length_residual_mm": 4.263256414560601e-14
+        },
+        {
+          "translation_scale": 0.0005,
+          "rotation_scale": 0.3,
+          "playback_speed": 1,
+          "servo_min_deg": 64.67015916967674,
+          "servo_max_deg": 115.62368058829072,
+          "passes_current_window": true,
+          "command_rotation_min_deg": [
+            -3.04286703555221,
+            -0.3243987547904305,
+            -0.0010447378891323008
+          ],
+          "command_rotation_max_deg": [
+            1.3695185761380257,
+            0.3389505387823363,
+            0.0014694924314600424
+          ],
+          "command_translation_min_mm": [
+            -0.07438752414901816,
+            -0.33734587506663827,
+            -2.1954148830936995
+          ],
+          "command_translation_max_mm": [
+            0.07946529988394688,
+            0.6913166489797153,
+            2.4557313992174032
+          ],
+          "max_rod_length_residual_mm": 2.842170943040401e-14
+        },
+        {
+          "translation_scale": 0.0005,
+          "rotation_scale": 0.5,
+          "playback_speed": 1,
+          "servo_min_deg": 61.76268033564146,
+          "servo_max_deg": 118.68371104491577,
+          "passes_current_window": true,
+          "command_rotation_min_deg": [
+            -5.0714450592536835,
+            -0.5406645913173842,
+            -0.0017412298152205013
+          ],
+          "command_rotation_max_deg": [
+            2.282530960230043,
+            0.5649175646372272,
+            0.002449154052433404
+          ],
+          "command_translation_min_mm": [
+            -0.07438752414901816,
+            -0.33734587506663827,
+            -2.1954148830936995
+          ],
+          "command_translation_max_mm": [
+            0.07946529988394688,
+            0.6913166489797153,
+            2.4557313992174032
+          ],
+          "max_rod_length_residual_mm": 2.842170943040401e-14
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "hs_m": 3.25,
+      "tz_s": 8.0,
+      "samples": 6000,
+      "duration_s": 599.9,
+      "model_rotation_min_deg": [
+        -11.011105064365143,
+        -1.7764306033074229,
+        -0.009008593810058415
+      ],
+      "model_rotation_max_deg": [
+        10.31001360098399,
+        1.8077061469100622,
+        0.009348846017715752
+      ],
+      "model_translation_min_m": [
+        -0.2547664871301194,
+        -1.52246136216385,
+        -7.407136157631708
+      ],
+      "model_translation_max_m": [
+        0.2502149490589378,
+        1.445377036841733,
+        7.483262055393169
+      ],
+      "previews": [
+        {
+          "translation_scale": 0.002,
+          "rotation_scale": 1.0,
+          "playback_speed": 1,
+          "servo_min_deg": 35.79967196897573,
+          "servo_max_deg": 146.57925454024218,
+          "passes_current_window": false,
+          "command_rotation_min_deg": [
+            -14.592738517267474,
+            -1.7837077129771355,
+            -0.007542633583833456
+          ],
+          "command_rotation_max_deg": [
+            6.728380148081659,
+            1.8004290372403495,
+            0.010814806243940711
+          ],
+          "command_translation_min_mm": [
+            -0.5104747968866618,
+            -2.0234545826430588,
+            -12.881023267880678
+          ],
+          "command_translation_max_mm": [
+            0.49948807549145263,
+            3.912222215368107,
+            16.899773158169076
+          ],
+          "max_rod_length_residual_mm": 4.263256414560601e-14
+        },
+        {
+          "translation_scale": 0.0005,
+          "rotation_scale": 0.3,
+          "playback_speed": 1,
+          "servo_min_deg": 61.74798636403786,
+          "servo_max_deg": 118.7301612275901,
+          "passes_current_window": true,
+          "command_rotation_min_deg": [
+            -4.377821555180241,
+            -0.5351123138931406,
+            -0.002262790075150037
+          ],
+          "command_rotation_max_deg": [
+            2.0185140444244976,
+            0.5401287111721048,
+            0.003244441873182213
+          ],
+          "command_translation_min_mm": [
+            -0.12761869922166544,
+            -0.5058636456607647,
+            -3.2202558169701696
+          ],
+          "command_translation_max_mm": [
+            0.12487201887286316,
+            0.9780555538420268,
+            4.224943289542269
+          ],
+          "max_rod_length_residual_mm": 4.263256414560601e-14
+        }
+      ]
+    }
+  ]
+}

@@ -20,12 +20,13 @@ float ANGLE[6] = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
 char messageFromPC[numChars] = {0};
 int integerFromPC = 0;
 
-float ANGLE1 = 0;
-float ANGLE2 = 0;
-float ANGLE3 = 0;
-float ANGLE4 = 0;
-float ANGLE5 = 0;
-float ANGLE6 = 0;
+// Approximate inverse-kinematics angles for the platform home pose.
+float ANGLE1 = 19.4;
+float ANGLE2 = 19.4;
+float ANGLE3 = 19.4;
+float ANGLE4 = 19.4;
+float ANGLE5 = 19.4;
+float ANGLE6 = 19.4;
 
 boolean newData = false;
 

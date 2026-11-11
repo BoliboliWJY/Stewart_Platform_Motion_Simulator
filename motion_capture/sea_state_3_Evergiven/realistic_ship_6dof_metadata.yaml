@@ -1,0 +1,20 @@
+model_status: equivalent_hull_estimate
+coordinate_frame: X=forward, Y=starboard, Z=up
+output_reference: deck_reference_point_relative_to_equilibrium
+ship_name: Evergiven
+sea_state: slight
+hs_m: 0.875
+tz_s: 5.0
+wave_from_deg: 135.0
+directional_spread_deg: 20.0
+n_direction_components: 9
+duration_s: 600.0
+dt_s: 0.1
+random_seed: 42
+deck_reference_m:
+- 180.0
+- 0.0
+- 27.5
+mass_kg: 202950000.0
+spectrum_m0_m2: 0.0478515625
+spectrum_hs_m: 0.875

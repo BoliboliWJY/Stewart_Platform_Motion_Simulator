@@ -1,0 +1,44 @@
+ship:
+  ship_name: Evergiven
+  WuSong:
+    L: 60.8
+    B: 10.0
+    d: 3.5
+    Cb: 0.7
+    GM: 0.8
+    speed_knots: 8.0
+    deck_reference_m:
+    - 15.0
+    - 5.0
+    - 8.0
+  Evergiven:
+    L: 400
+    B: 55
+    d: 15
+    Cb: 0.6
+    GM: 2
+    speed_knots: 22
+    deck_reference_m:
+    - 180.0
+    - 0.0
+    - 27.5
+ship_name: Evergiven
+selected_level: 3
+sea_state:
+  name: slight
+  hs_range:
+  - 0.5
+  - 1.25
+  hs: 0.875
+  tz: 5.0
+hs: 0.875
+tz: 5.0
+duration: 600.0
+dt: 0.1
+n_components: 500
+f_min: 0.01
+f_max: 0.35
+n_direction_components: 9
+random_seed: 42
+wave_from_deg: 135.0
+directional_spread_deg: 20.0

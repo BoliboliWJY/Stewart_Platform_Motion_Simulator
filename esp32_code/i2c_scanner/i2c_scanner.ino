@@ -1,33 +1,22 @@
-#include "Wire.h"
+#include <Wire.h>
+#include <Adafruit_PWMServoDriver.h>
 
-void setup(){
-  Serial.begin(115200); 
-  while(!Serial){} // Waiting for serial connection
- 
-  Serial.println();
-  Serial.println("Start I2C scanner ...");
-  Serial.print("\r\n");
-  byte count = 0;
-  
-  Wire.begin();
-  for (byte i = 8; i < 120; i++)
-  {
-    Wire.beginTransmission(i);
-    if (Wire.endTransmission() == 0)
-      {
-      Serial.print("Found I2C Device: ");
-      Serial.print(" (0x");
-      Serial.print(i, HEX);
-      Serial.println(")");
-      count++;
-      delay(1);
-      }
+Adafruit_PWMServoDriver pwm(0x40);
+
+int angleToPulse(int angle) {
+  return map(angle, 0, 180, 250, 1148);
+}
+
+void setup() {
+  Wire.begin(21, 22);
+  pwm.begin();
+  pwm.setPWMFreq(120);
+  delay(500);
+
+  // 将 0 到 5 号通道全部设定为 90°
+  for (int ch = 0; ch < 6; ch++) {
+    pwm.setPWM(ch, 0, angleToPulse(90));
   }
-  Serial.print("\r\n");
-  Serial.println("Finish I2C scanner");
-  Serial.print("Found ");
-  Serial.print(count, HEX);
-  Serial.println(" Device(s).");
 }
 
 void loop() {}

@@ -1,0 +1,58 @@
+{
+  "settings": {
+    "axis": "both",
+    "port": "COM7",
+    "max_angle": 15.0,
+    "step": 0.5,
+    "speed": 1.0,
+    "servo_min": 20.0,
+    "servo_max": 160.0,
+    "diagnose": false,
+    "send": true
+  },
+  "model_preview": [
+    {
+      "axis": "roll",
+      "direction": 1,
+      "last_model_pass_deg": 15.0,
+      "stop_reason": "requested max-angle reached; not a mechanical limit"
+    },
+    {
+      "axis": "roll",
+      "direction": -1,
+      "last_model_pass_deg": -15.0,
+      "stop_reason": "requested max-angle reached; not a mechanical limit"
+    },
+    {
+      "axis": "pitch",
+      "direction": 1,
+      "last_model_pass_deg": 15.0,
+      "stop_reason": "requested max-angle reached; not a mechanical limit"
+    },
+    {
+      "axis": "pitch",
+      "direction": -1,
+      "last_model_pass_deg": -15.0,
+      "stop_reason": "requested max-angle reached; not a mechanical limit"
+    }
+  ],
+  "directions": [
+    {
+      "axis": "roll",
+      "direction": 1,
+      "last_confirmed_command_deg": 0.0,
+      "stop_reason": "in_progress",
+      "observations": []
+    }
+  ],
+  "status": "operator_stopped_holding_pose",
+  "actual_platform_angles_measured": false,
+  "startup_firmware_angles": [
+    19.4,
+    19.4,
+    19.4,
+    19.4,
+    19.4,
+    19.4
+  ]
+}
